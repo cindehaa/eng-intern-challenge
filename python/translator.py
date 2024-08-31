@@ -121,7 +121,7 @@ if input_is_braille(inp):
                     else:
                         print(key, end="")
                     break
-
+ 
 else:
     number_follower = False # whether we need to write "NUMBER" before a number
     for i in inp:
